@@ -1,6 +1,5 @@
 package Kiosk;
 
-import Kiosk.Menu;
 
 class Product extends Menu {
     private int price;
