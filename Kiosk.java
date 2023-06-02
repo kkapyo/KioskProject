@@ -147,9 +147,11 @@ public class Kiosk {
             displayOrderMenu();
         }
     }
+    private static int orderNumber = 0;
 
     private static void completeOrder() {
-        System.out.println("주문이 완료되었습니다! 대기번호는 12345입니다!");
+        orderNumber++;
+        System.out.println("주문이 완료되었습니다! 대기번호는" + orderNumber + "입니다!");
         order.viewCart();
         order.clearCart();
 
