@@ -3,8 +3,6 @@ package Kiosk;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import Kiosk.Menu;
-import Kiosk.Product;
 
 public class Kiosk {
     private static List<Menu> mainMenu;
