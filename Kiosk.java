@@ -151,7 +151,7 @@ public class Kiosk {
 
     private static void completeOrder() {
         orderNumber++;
-        System.out.println("주문이 완료되었습니다! 대기번호는" + orderNumber + "입니다!");
+        System.out.println("주문이 완료되었습니다! 대기번호는 " + orderNumber + "번 입니다!");
         order.viewCart();
         order.clearCart();
 
